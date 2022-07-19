@@ -101,6 +101,7 @@ body {
 
 .header-link {
 	display: flex;
+	align-items: center;
   color: var(--primary-text-color);
   text-decoration: none;
   padding: 32px 0;
@@ -111,9 +112,7 @@ body {
 	margin-right: 10px;
 	fill: currentColor;
 }
- .header-link:hover .link-icon{		
-	fill:var(--hover-color);
- }
+
 .active-link {
   color: var(--active-color);
 }
@@ -325,13 +324,12 @@ body {
 }
 .team-social-link:hover{
 	background-color:var(--hover-color);
+	color:var(--seconadary-text-color);
 }
 .team-social-icon {
 	fill: currentColor;
 }
-.team-social-link:hover .team-social-icon{
-	fill:#ffff;
-}
+
 .team-text {
   color: var(--artical-color-text);
   font-size: 16px;
@@ -358,10 +356,9 @@ body {
 }
 .section-company-link:hover{
 	border: 1px solid var(--hover-color);
+	color: var(--hover-color);
 }
-.section-company-link:hover .company-link-icon{
-	fill: var(--hover-color);
-}
+
 
 /* portfolio page */
 
