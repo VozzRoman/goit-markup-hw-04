@@ -18,9 +18,10 @@
 
   <body>
     <!-- Шапка страницы -->
-    <header class="header">
+     <header class="header">
       <div class="header-page container">
-        <a href="./index.html" class="logo" lang="en"><span class="logo-color">Web</span>Studio</a>
+        <a href="./index.html" class="logo" lang="en"
+          ><span class="logo-color">Web</span>Studio</a>
         <nav class="header-nav">
           <ul class="header-list-nav">
             <li class="header-item-nav">
@@ -36,10 +37,12 @@
         </nav>
         <ul class="header-list-contact">
           <li class="header-item-contact">
-            <a class="header-link link-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-link link-color" href="mailto:info@devstudio.com">
+					<svg class="link-icon" width="16" height="12" ><use href="./images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a>
           </li>
           <li class="header-item-contact">
-            <a class="header-link link-color" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-link link-color" href="tel:+380961111111">
+					<svg class="link-icon" width="10" height="16"><use href="./images/sprite.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -154,20 +157,56 @@
     </main>
 
     <!-- Подвал страницы -->
-    <footer class="footer">
+        <footer class="footer">
       <div class="footer-page container">
-        <a class="logo footer-logo" href="./index.html" lang="en"><span class="logo-color">Web</span>Studio</a>
-		  <address>
-			<ul class="footer-list">
-				<li class="footer-item"><p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-				</li>
-				<li class="footer-item"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-				</li>
-				<li class="footer-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-				</li>
-			 </ul>
-		  </address>
+			<div class="footer-column">
+				    <a class="logo footer-logo" href="./index.html" lang="en"><span class="logo-color">Web</span>Studio</a>
+        <address>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+			</div>
+			<div class="footer-column">
+				<h3 class="section-subtitle footer-column-title">присоединяйтесь</h3>
+				<ul class="footer-column-list">
+						<li class="team-social-item">
+							<a href="https://www.instagram.com/" target="_blank" class="team-social-link footer-column-link">
+								<svg class="team-social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-instagram"></use></svg>
+							</a>
+						</li>
+						<li class="team-social-item">
+							<a href="https://twitter.com/?lang=ru" target="_blank" class="team-social-link footer-column-link">
+								<svg class="team-social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-twitter"></use></svg>
+							</a>
+						</li>
+							<li class="team-social-item">
+							<a href="https://www.facebook.com/" target="_blank" class="team-social-link footer-column-link">
+								<svg class="team-social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-facebook"></use></svg>
+							</a>
+						</li>
+						<li class="team-social-item">
+							<a href="https://www.linkedin.com/company/social-in" target="_blank" class="team-social-link footer-column-link">
+								<svg class="team-social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-in"></use></svg>
+							</a>
+						</li>
+				</ul>
+			</div>
+    
       </div>
     </footer>
+  </body>
   </body>
 </html>
